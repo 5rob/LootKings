@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2743142144510967673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2743142144510967675}
+  - component: {fileID: 2743142144510967672}
+  m_Layer: 0
+  m_Name: Hero Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2743142144510967675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2743142144510967673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2743142144510967672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2743142144510967673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2a11ed4f25b72a4cbcf99e88b35abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hero_1: {fileID: 1767765995025897302, guid: 8c475a4c5c452df4eb16d7077c0fb8ea, type: 3}
+  hero_2: {fileID: 1767765995025897302, guid: 8c475a4c5c452df4eb16d7077c0fb8ea, type: 3}
+  hero_3: {fileID: 1767765995025897302, guid: 8c475a4c5c452df4eb16d7077c0fb8ea, type: 3}
+  heroLeader: {fileID: 3439117613914924859, guid: 6f4cabb94d5717f48bc5fccc80521bdd,
+    type: 3}
+  heroes: []

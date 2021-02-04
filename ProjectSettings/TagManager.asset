@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Hero
+  - Enemy
+  - Spawner
+  - GameManager
+  - Navmesh
+  - LevelGen
+  - HeroLeader
+  - LootBoxObject
+  - LootBoxIcon
+  - PauseIcon
+  - LootManager
+  - EnemySpawnNull
+  - lootUI
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - LootBoxObject
+  - 
+  - Hero
+  - Ground
+  - NavIgnore
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

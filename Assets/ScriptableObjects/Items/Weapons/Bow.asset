@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30ecf7ff9acad94092071f88c609ac9, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1986020875623830, guid: 88d2a0d21fe07524ea1d0c4f7a788bbc, type: 3}
+  type: 0
+  wepName: 
+  level: 0
+  baseDmg: 4
+  blk: 0
+  heal: 0
+  range: 8
+  speed: 5
+  rarity: 
+  material: {fileID: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
+  special: Can shoot a flaming arrow to burn enemies;
